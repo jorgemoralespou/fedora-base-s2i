@@ -4,7 +4,7 @@ MAINTAINER Jorge Morales <jmorales@redhat.com>
 
 LABEL \
       # Location of the STI scripts inside the image.
-      io.openshift.s2i.scripts-url=image:///usr/libexec/s2i \
+      io.openshift.s2i.scripts-url=image:///usr/libexec/s2i
 
 ENV \
     # Path to be used in other layers to place s2i scripts into
